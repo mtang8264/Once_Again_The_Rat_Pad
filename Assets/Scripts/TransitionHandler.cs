@@ -19,6 +19,7 @@ public class TransitionHandler : MonoBehaviour
         instance = this;
 
         fade = GameObject.FindWithTag("Fade").GetComponent<Image>();
+        fade.color = new Color(0, 0, 0, 1); 
     }
 
     // Update is called once per frame
