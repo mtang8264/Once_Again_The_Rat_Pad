@@ -33,6 +33,7 @@ public class TextHandler : MonoBehaviour
     private float lastTime;
     public bool typing;
     public bool done;
+    public int squeakDivider;
 
     private void Awake()
     {
@@ -88,8 +89,9 @@ public class TextHandler : MonoBehaviour
             if (Time.time > lastTime + waitTime && typing)
             {
                 lastTime = Time.time;
+                if(currentCharacter % squeakDivider == 0)
+                    MusicManager.me.SendMessage("Squeak");
                 currentCharacter++;
-                MusicManager.me.SendMessage("Squeak");
                 if (currentCharacter > dialogueStrings[currentLine - 1].Length)
                 {
                     currentCharacter--;

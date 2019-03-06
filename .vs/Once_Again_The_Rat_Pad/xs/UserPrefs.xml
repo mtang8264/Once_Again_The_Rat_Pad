@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{1329D687-C216-F687-0C3F-C47E2BFF3A1E}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TransitionHandler.cs">
+    <Files>
+      <File FileName="Assets/Scripts/MusicManager.cs" Line="13" Column="6" />
+      <File FileName="Assets/Scripts/TextHandler.cs" Line="92" Column="52" />
+      <File FileName="Assets/Scripts/SceneSpecific/TutorialScreenManager.cs" Line="21" Column="39" />
+      <File FileName="Assets/Script.txt" Line="15" Column="26" />
+      <File FileName="Assets/Scripts/TransitionHandler.cs" Line="17" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -11,11 +11,8 @@ public class MusicManager : MonoBehaviour
 
     private void Awake()
     {
-        if(me != null)
-        {
-            Destroy(gameObject);
-        }
         me = this;
+        DontDestroyOnLoad(gameObject);
     }
 
     // Start is called before the first frame update
@@ -27,7 +24,10 @@ public class MusicManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(me == null)
+        {
+            Debug.LogError("MuiscManager.me is not bound!");
+        }
     }
 
     public void Squeak()
